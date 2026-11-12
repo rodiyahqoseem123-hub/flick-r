@@ -1,0 +1,643 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Proxima Nova",  Arial,
+sans-serif;
+    text-decoration: none;
+    /* width: 100%; */
+    /* overflow: hidden; */
+    
+}
+.parent{
+     height: 50px;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0; 
+    z-index: 1000;
+}
+.display{
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(217, 215, 206);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 10px;
+    
+    
+}
+.marq{
+    color: rgb(217, 215, 206);
+    font-size: 17.445px;
+    line-height: 26.165px;
+    font-weight: 300;
+}
+.no{
+    display: flex;
+   
+}
+.no select{
+    border: none;
+    outline: none;
+    margin-bottom: 40px;
+    background-color: RGB(226, 222, 222);
+}
+.flickr-nav{
+    display: flex;
+    justify-content: space-between;
+     /* gap: 40px; */
+    background-color: rgb(226, 222, 222);
+    border-radius: 2px solid rgb(226, 222, 222);
+    color: #333333;
+    width: 100%;
+    height: 80px;
+    margin-top: 50px;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.flickr-list{
+    display: flex; 
+    gap: 60px;
+    margin-top: 25px;
+    color: #333333;
+    text-decoration: none;
+    list-style-type: none;
+}
+.flickr-list a{
+    text-decoration: none;
+    /* list-style-type: none;   */
+     color: #333333;
+}
+flickrlist:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.flickr-list2{
+    display: flex;
+    gap: 40px;
+    margin-top: 25px; 
+    text-decoration: none;
+    color: #333333;
+}
+.flickr-list2 a{
+    text-decoration: none;
+     color: #333333;
+}
+.signup{
+    font-weight: 700;
+    font-size: 18px;
+    height: 30px;
+    /* margin-bottom: 30px; */
+    /* margin: 0px 10px 0px 0px; */
+    padding: 0px 19px;
+    border-radius: 10px;
+    background-color: #ff0084;
+    color: rgb(255 255 255);
+
+}
+.section1{
+    width: 100%;
+    height: 620px;
+    display: grid;
+    grid-template-columns: 72% 28%;
+    justify-content: space-between;
+    /* gap: 550px; */
+    margin-top: 130px;
+    color: RGB(51, 51, 51);
+    background-color: rgb(226, 222, 222);
+    /* position: relative; */
+}
+.best2{
+   /* margin-left: 590px;  */
+}
+.best-img1{
+    margin-left: 80px;
+    /* animation: image 2s linear infinite */
+    
+}
+/* .best-img1:hover{
+    animation: image 2s linear infinite;  */
+    /* filter: grayscale(100%);
+    display: 2s; */
+/* } */
+.best-img1{
+    filter: grayscale(100%);
+    
+
+}
+.best-img1:hover{
+    filter: brightness(100%);
+}
+.img2{
+    filter: grayscale(100%);
+    
+
+}
+.img2:hover{
+    filter: contrast(100%);
+    display: 2000s linear infinite;
+}
+.best{
+    font-size: 19.38px;
+    font-weight: 400;
+    padding: 19.38px 0px opx;
+}
+.best1{
+    font-size: 120.177px;
+    font-weight: 700;
+    line-height: 84.1237px;
+    padding: 20px;
+    letter-spacing: -6px;
+    
+
+}
+.best3{
+    padding: 14.5375px 19.383px;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 700;
+    color: rgb(255 255 255);
+    background-color: #ff0084;
+    margin-left: 30px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+ 
+ @keyframes image{
+    from{
+        filter: grayscale(100%);
+    }
+    to{
+        filter: saturate(100%);
+    }
+ }
+ .section2{
+    font-size: 19.3833px;
+    height: 770px;
+    background-color: rgb(226, 222, 222);
+    margin: 0px opx -38.7667px;
+    padding: 0px 30px;
+
+ }
+ .welcome{
+    height: 250px;
+    width: 700px;
+    font-size: 19.3833px;
+    font-weight: 400;
+    padding: 0px;
+    line-height: 20px;
+    margin: 0px opx -38.7667px;
+    background-color: rgb(226, 222, 222);
+
+ }
+ .welcome1{
+    font-size: 93.04px;
+    font-weight: 700;
+    line-height: 69.78px;
+    letter-spacing: -5px;
+    padding: 0px;
+    color: RGB(51, 51, 51);
+
+ }
+ .img-section{
+    display: flex;
+    gap: 20px;
+ }
+ .w-paragraph{
+    display: flex;
+    background-color: rgb(255 255 255);
+    color: RGB(51, 51, 51);
+    padding: 10px 19.3833px;
+    font-size: 19.3833px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: normal;
+    width: 380px;
+    gap: 5px;
+
+ }
+ .w-img1{
+    filter: grayscale(100%);
+    transition-duration: 3000s;
+    
+
+}
+.w-img1:hover{
+    filter: grayscale(0%);
+    transition-duration: 0s;
+}
+.w-img2{
+    filter: grayscale(100%);
+     transition-duration: 3000s;
+    
+
+}
+.w-img2:hover{
+    filter: grayscale(0%);
+     transition-duration: 0s;
+ }
+ .photo1{
+    filter: grayscale(100%);
+    transition-duration: 3000s;
+    
+
+}
+.photo1:hover{
+    filter: grayscale(0%);
+    transition-duration: 0s;
+} */
+ .monoram{
+    color: rgb(120 120 120);
+    font-weight: 600;
+    font-size: 13.5683px;
+    line-height: 17.6388px;
+ }
+ .monoram2{
+    padding: 0px;
+    margin: 4.84583px 0px 0px;
+    font-size: 13.5683px;
+    font-weight: 400;
+    line-height: 13.5683px;
+    color: rgb(0, 0, 0);
+
+ }
+.mon{
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+}
+.pro{
+    border: 1px solid black;
+    color: RGB(51, 51, 51);
+    font-size: 13.5683px;
+    font-weight: 600;
+    line-height: 13.5683px;
+    letter-spacing: 1px;
+}
+ .w-paragraph2{
+    display: flex;
+    background-color: rgb(255 255 255);
+    color: RGB(51, 51, 51);
+    padding: 10px 19.3833px;
+    font-size: 19.3833px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: normal;
+    width: 250px;
+    gap: 5px;
+ }
+ .flickr-section{
+    line-height: 20px;
+    font-size: 19.3833px;
+    font-weight: 400;
+    margin-top: 50px;
+ }
+ .flickr-section1{
+    line-height: 31.4979px;
+    font-weight: 300;
+    font-size: 24.2292px;
+    letter-spacing: normal;
+    margin: 23.26px 0px 0px;
+    color: RGB(35, 35, 35);
+ }
+ .flickr-section2 a{
+ text-decoration: underline 2px solid;
+ font-weight: 700;
+ font-size: 17.445px;
+ line-height: 26.1675px;
+ letter-spacing: 1px;
+ color: #ff0084;
+ }
+ .neighbour-img:hover{
+    background-color: none;
+    animation: circle 1s linear infinite;
+
+ }
+ 
+@keyframes circle{
+    from{
+    transform: translate(0px)
+}
+    to{
+        transform: translate(15px);
+    }
+}
+.section3{
+    font-size: 19.3833px;
+    height: 500px;
+    background-color: rgb(226, 222, 222);
+    margin: 0px;
+    padding: 0px 30px;
+
+ }
+  .photos{
+    height: 110px;
+    width: 700px;
+    font-size: 19.3833px;
+    font-weight: 400;
+    padding: 0px;
+    line-height: 20px;
+    margin: 0px opx -38.7667px;
+    background-color: rgb(226, 222, 222);
+     /* position: relative; */
+ }
+ .photo1{
+     display: flex;
+     gap: 20px;
+ }
+ .fphoto1{
+    position: relative;
+    margin-top: 50px;
+
+   
+ }
+ .name1{
+    position: absolute;
+    line-height: 22.2424px;
+    font-weight: 400;
+    font-size: 13.0837px;
+    color: rgb(255 255 255);
+    top: 90%;
+    left: 68%;
+ }
+ .flickr-section3{
+    line-height: 20px;
+    font-size: 19.3833px;
+    font-weight: 400;
+    margin-top: 50px;
+ }
+ .flickr-section4{
+    line-height: 31.4979px;
+    font-weight: 300;
+    font-size: 24.2292px;
+    letter-spacing: normal;
+    margin: 23.26px 0px 0px;
+    color: RGB(35, 35, 35);
+ }
+  .flickr-section4 a{
+ text-decoration: underline 2px solid;
+ font-weight: 700;
+ font-size: 17.445px;
+ line-height: 26.1675px;
+ letter-spacing: 1px;
+ color: #ff0084;
+ }
+ .fphoto2{
+    position: relative;
+
+ }
+ .name2{
+    position: absolute;
+    line-height: 22.2424px;
+    font-weight: 400;
+    font-size: 13.0837px;
+    color: black;
+    top: 90%;
+    left: 65%;
+ }
+ .name3{
+    position: absolute;
+    line-height: 22.2424px;
+    font-weight: 400;
+    font-size: 13.0837px;
+    color: rgb(255 255 255);
+    top: 90%;
+    left: 60%;
+ }
+ .name4{
+    position: absolute;
+    line-height: 22.2424px;
+    font-weight: 400;
+    font-size: 13.0837px;
+    color: rgb(255 255 255);
+    top: 90%;
+    left: 73%;
+ }
+ .photo-background{
+    height: 350px;
+    width: 100%;
+    background-image: url(./FPHOTO3.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+ }
+
+.one{
+    font-size: 19.3833px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 50px 50px;
+    
+
+}
+.two{
+    font-size: 48.4583px;
+    font-weight: 700;
+    line-height: 36.3438px;
+    letter-spacing: -1px;
+    color: RGB(217, 215, 206);
+    /* padding-right: 50px; */
+}
+.three{
+    font-size: 17.445px;
+    line-height: 20.934px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 0px 0px 19.3833px;
+}
+.four{
+    display: flex;
+    font-size: 19.3833px;
+    line-height: 27.6904px;
+    font-weight: 400;
+    margin: 0px;
+    padding: 9.69167px 12px;
+    width: 300px;
+    height: 50px;
+    color: RGB(217, 215, 206);
+    background-color: RGBA(217, 215, 206, 0.31);
+    justify-content: space-between;
+
+}
+.five{
+    display: flex;
+    gap: 20px;
+}.checkbox{
+    border-radius: 50%;
+}
+.checkboxp{
+    line-height: 17.0573px;
+    font-size: 15.5067px;
+    font-weight: 400;
+    margin: 0px 0px 0px 9.69167px;
+    
+}
+.flickr-section0{
+    line-height: 31.4979px;
+    font-weight: 300;
+    font-size: 24.2292px;
+    letter-spacing: normal;
+    margin: 23.26px 0px 0px;
+    color: RGB(35, 35, 35);
+ }
+
+ .section4{
+    font-size: 19.3833px;
+    height: 550px;
+    background-color: rgb(226, 222, 222);
+    margin: 0px;
+    padding: 60px 30px;
+
+ }
+ .name1{
+    position: absolute;
+    line-height: 22.2424px;
+    font-weight: 400;
+    font-size: 13.0837px;
+    color: rgb(255 255 255);
+    top: 90%;
+    left: 75%;
+ }
+  .name5{
+    position: absolute;
+    line-height: 22.2424px;
+    font-weight: 400;
+    font-size: 13.0837px;
+    color: black;
+    top: 90%;
+    left: 75%;
+ }
+  .section5{
+    font-size: 19.3833px;
+    height: 600px;
+    background-color: rgb(226, 222, 222);
+    margin: 0px;
+    padding: 60px 30px;
+
+ }
+  .photos1{
+    height: 160px;
+    width: 400px;
+    font-size: 19.3833px;
+    font-weight: 400;
+    padding: 0px;
+    line-height: 20px;
+    margin: 0px opx -38.7667px;
+    background-color: rgb(226, 222, 222);
+     /* position: relative; */
+ }
+  .welcome1{
+    font-size: 93.04px;
+    font-weight: 700;
+    line-height: 69.78px;
+    letter-spacing: -5px;
+    padding: 0px;
+    color: RGB(51, 51, 51);
+
+ }
+ .p2{
+    font-size: 17.445px;
+    font-weight: 400;
+    line-height: 19.1895px;
+    margin: 20px 0px 0px;
+    color: RGB(35, 35, 35);
+ }
+ .section-anc{
+    padding: 14.5375px 19.3833px;
+    color: RGB(255, 255, 255);
+    background-color: RGB(9, 103, 231);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+ }
+
+.flickr-footer{
+    width: 100%;
+    height: 470px;
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 35% 20% 20% 20%;
+    padding: 48.4583px 29.075px;
+    line-height: 20px;
+    font-weight: 400;
+    font-size: 19.3833px;
+    /* gap: 20px; */
+    border-bottom: 1px solid grey;
+}
+.footer{
+    display: block;
+    gap: 20px;
+}
+.f-image{
+    gap: 10px;
+    
+}
+.footer-p1{
+    font-size: 15.5067px;
+    font-weight: 300;
+    line-height: 23.26px;
+    letter-spacing: 0.5px;
+    color: RGB(217, 215, 206);
+    width: 200px;
+}
+.footer1 a{
+    display: block;
+    gap: 20px;
+    color: RGB(217, 215, 206);
+    padding: 19.3833px 0px;
+    letter-spacing: 0.5px;
+    line-height: 0.155067px;
+    font-size: 15.5067px;
+    font-weight: 400;
+}
+.footer1 a:hover{
+    color: RGB(9, 103, 231);
+}
+.footer-nav{
+    padding: 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    background-color: black;
+    color: white;
+    
+}
+.footer-img2{
+    gap: 20px;
+}
+.footer-nav1{
+    display: block;
+    margin-right: 50px;
+    gap: 10px;
+
+}
+.footer-nav2{
+    display: flex;
+    line-height: 23.26px;
+    font-size: 15.5067px;
+    font-weight: 300;
+    color: rgb(117, 116, 108);
+    gap: 10px;
+
+}
+.footer-nav2 a{
+   color: rgb(117, 116, 108); 
+   text-decoration: underline;
+}
+.footer-nav1 p{
+    font-size: 15.5067px;
+    line-height: 23.26px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: RGB(117, 116, 108);
+}
